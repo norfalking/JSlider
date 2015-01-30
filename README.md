@@ -25,7 +25,7 @@ JSlider is a simple javascript library to create slideshow
   </script>
 ```
 <br>
-You can use options to adapt your slideshown to your needs :
+You can use options to adapt your slideshow to your needs :
   - <b><i>enableLoop</i></b> [true/false] : enable or disable slide loop
   - <b><i>enableKeyboardControl</i></b> [true/false] : enable or disable keyboard control (right and left arrow)
   - <b><i>enableArrowControl</i></b> [true/false] : enable or disable arrow control (on the screen)
