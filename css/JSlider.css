@@ -1,0 +1,51 @@
+/**
+ * JSlider v1.0.0
+ * created by Arnaud Plassier
+ */
+
+ body {
+ 	margin: 0;
+ }
+
+ .jslider {
+ 	position: relative;
+ }
+
+.jslide {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+ 	top: 0;
+ 	bottom: 0;
+ 	right: 0;
+ 	left: 0;
+}
+
+#leftArrowControl, #rightArrowControl {
+	background-size: 50px 50px;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+}
+
+#leftArrowControl:hover, #rightArrowControl:hover {
+	cursor: pointer;
+}
+
+#leftArrowControl {
+	background-image: url("../img/leftArrowControl.png");	
+	left: 20px;
+}
+
+#leftArrowControl:hover {
+	background-image: url('../img/leftArrowControl_hover.png');
+}
+
+#rightArrowControl {
+	background-image: url('../img/rightArrowControl.png');
+	right: 20px;
+}
+
+#rightArrowControl:hover {
+	background-image: url('../img/rightArrowControl_hover.png');
+}
